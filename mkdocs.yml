@@ -1,6 +1,6 @@
 site_name: IIoT Bearing PdM System
-site_url: https://your-username.github.io/bearing-iiot/
-repo_url: https://github.com/your-username/bearing-iiot
+site_url: https://FSB-IoT-Project.github.io/bearing-iiot/
+repo_url: https://github.com/FSB-IoT-Project/bearing-iiot
 edit_uri: edit/main/docs/
 
 theme:
@@ -10,8 +10,8 @@ theme:
         # Palette toggle for light mode
         - media: "(prefers-color-scheme: light)"
           scheme: default
-          primary: indigo
-          accent: indigo
+          primary: custom
+          accent: custom
           toggle:
               icon: material/brightness-7
               name: Switch to dark mode
@@ -19,8 +19,8 @@ theme:
         # Palette toggle for dark mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
-          primary: indigo
-          accent: indigo
+          primary: custom
+          accent: custom
           toggle:
               icon: material/brightness-4
               name: Switch to light mode
@@ -49,6 +49,9 @@ theme:
         logo: material/engine
         favicon: material/engine-outline
 
+extra_css:
+    - stylesheets/extra.css
+
 plugins:
     - search
 
@@ -75,18 +78,26 @@ copyright: Copyright &copy; 2024 - 2026 Bearing IIoT Team
 extra:
     social:
         - icon: fontawesome/brands/github
-          link: https://github.com/your-username/bearing-iiot
+          link: https://github.com/trungbuidesu
         - icon: fontawesome/brands/linkedin
-          link: https://linkedin.com/in/your-profile
+          link: https://www.linkedin.com/in/buiductrung29/
 
 nav:
     - Trang chủ: index.md
     - Kỹ thuật & Kiến trúc:
           - architecture.md
           - specification.md
+    - Phần cứng (Hardware):
+          - hardware/esp32.md
+          - hardware/raspberry-pi.md
+          - hardware/cloud-server.md
     - Trí tuệ nhân tạo (AI):
           - ml-models.md
           - or-tools.md
+    - Kiểm thử (Testing):
+          - testing-project/test-strategy.md
+          - testing-project/test-results.md
     - Quản lý dự án:
-          - testing.md
-          - roadmap.md
+          - Lộ trình: roadmap.md
+          - Hướng dẫn thiết kế: style-guide.md
+    - Tài liệu tham khảo: references.md
