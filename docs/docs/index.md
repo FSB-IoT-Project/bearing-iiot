@@ -1,14 +1,26 @@
 # Welcome to IIoT Bearing PdM System
 
-Hệ thống giám sát tình trạng vòng bi ứng dụng IIoT và Bảo trì dự báo (PdM).
+Hệ thống giám sát tình trạng vòng bi ứng dụng IIoT và Bảo trì dự báo (PdM). :gear:
 
-## Giới thiệu
-Dự án này cung cấp tài liệu kỹ thuật và hướng dẫn sử dụng cho hệ thống IIoT Bearing.
+!!! info "Thông báo"
+    Tài liệu này đang được cập nhật liên tục để phản ánh các tính năng mới nhất của hệ thống.
 
-### Các thành phần chính:
-- **Cảm biến**: Thu thập dữ liệu rung động và nhiệt độ.
-- **Gateway**: Truyền dữ liệu lên cloud.
-- **Dashboard**: Hiển thị trạng thái và cảnh báo.
+## Các tính năng chính
+
+=== "Cảm biến"
+    - Thu thập dữ liệu rung động.
+    - Đo nhiệt độ thời gian thực.
+    - Kết nối không dây LoRaWAN/WiFi.
+
+=== "Gateway"
+    - Xử lý dữ liệu tại biên (Edge Computing).
+    - Bảo mật dữ liệu TLS/SSL.
+    - Hỗ trợ lưu trữ offline khi mất mạng.
+
+## Danh sách công việc
+- [x] Thiết lập hạ tầng MkDocs.
+- [/] Cập nhật tài liệu kỹ thuật Gateway.
+- [ ] Xây dựng hướng dẫn API.
 
 ## Hướng dẫn bắt đầu
 1. Cài đặt cảm biến.
