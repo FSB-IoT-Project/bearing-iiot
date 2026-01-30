@@ -95,6 +95,7 @@ nav:
           - ml-models.md
           - or-tools.md
     - Kiểm thử (Testing):
+          - testing.md
           - testing-project/test-strategy.md
           - testing-project/test-results.md
     - Quản lý dự án:
