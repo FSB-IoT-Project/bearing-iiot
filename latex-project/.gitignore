@@ -1,0 +1,94 @@
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# LaTeX intermediate files
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Makeindex files
+*.idx
+*.ilg
+*.ind
+
+# Nomenclature files
+*.nlo
+*.nls
+*.nlg
+
+# Glossary files
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Hyperref files
+*.brf
+
+# Knitr files
+*-concordance.tex
+
+# Other files
+*.nav
+*.snm
+*.vrb
+*.spl
+*.sta
+
+# Backup files
+*~
+*.backup
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore all PDFs except main.pdf
+*.pdf
+!main.pdf
+
+# Ignore all source files
+*.tex
+*.bib
+*.sty
+*.cls
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.eps
